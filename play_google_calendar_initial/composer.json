@@ -1,0 +1,21 @@
+{
+  "name": "gustavoweb/google_calendar",
+  "description": "API de comunicacao com o Google Calendar - https://upinside.com.br",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gustavo Web",
+      "email": "gustavo@upinside.com.br"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "google/apiclient": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Model\\": "Source/Models/"
+    }
+  }
+}
